@@ -1,0 +1,4043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spi",
+				"sprint	Arduino Serial.print()"
+			],
+			[
+				"debu",
+				"debugFile"
+			],
+			[
+				"spri",
+				"sprintln	Arduino Serial.println()"
+			],
+			[
+				"ui",
+				"uint8_t"
+			],
+			[
+				"sys",
+				"systemStateInfo_global"
+			],
+			[
+				"uin",
+				"uint16_t"
+			],
+			[
+				"Hea",
+				"Heating_ON"
+			],
+			[
+				"respon",
+				"response"
+			],
+			[
+				"tem",
+				"temperature"
+			],
+			[
+				"de",
+				"delay	Arduino delay()"
+			],
+			[
+				"if",
+				"if	Arduino if"
+			],
+			[
+				"turn",
+				"turnOnBoilerElectricity"
+			],
+			[
+				"ele",
+				"boilerElectricity_ON"
+			],
+			[
+				"onewi",
+				"oneWireBus_setup"
+			],
+			[
+				"node",
+				"sendNodeState"
+			],
+			[
+				"sprin",
+				"sprintln	Arduino Serial.println()"
+			],
+			[
+				"respons",
+				"responseText"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"REL",
+				"RELAY_DEBUG"
+			],
+			[
+				"St",
+				"String"
+			],
+			[
+				"mai",
+				"MAIN_DEBUG"
+			],
+			[
+				"sens",
+				"sensorMax"
+			],
+			[
+				"spr",
+				"sprintln	Arduino Serial.println()"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"len",
+				"lengthOfLine"
+			],
+			[
+				"Curre",
+				"currentLoop"
+			],
+			[
+				"starts",
+				"startsWith"
+			],
+			[
+				"manu",
+				"manual"
+			],
+			[
+				"manual",
+				"manualRelayState_global"
+			],
+			[
+				"Wifi",
+				"WiFiClient"
+			],
+			[
+				"last",
+				"lastTemp_global"
+			],
+			[
+				"program",
+				"programaticRelayState_global"
+			],
+			[
+				"las",
+				"lastTemp_global"
+			],
+			[
+				"shut",
+				"shutDownBoilerElectricity"
+			],
+			[
+				"shu",
+				"shutDownBoilerElectricity"
+			],
+			[
+				"setup",
+				"setupRelayBoard"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"dela",
+				"delay	Arduino delay()"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"Update_Fail",
+				"Update_Failed2"
+			],
+			[
+				"_ser",
+				"_SerialOutput"
+			],
+			[
+				"i",
+				"ifdef	Arduino Macro ifdef"
+			],
+			[
+				"remote",
+				"remoteConsole"
+			],
+			[
+				"flow",
+				"flowTemp"
+			],
+			[
+				"pi",
+				"pipeTemp"
+			],
+			[
+				"display",
+				"displayPrint"
+			],
+			[
+				"y",
+				"yield"
+			],
+			[
+				"dall",
+				"dallas1"
+			],
+			[
+				"printf",
+				"printf"
+			],
+			[
+				"da",
+				"dallas1"
+			],
+			[
+				"wifiC",
+				"wifiConsole"
+			],
+			[
+				"se",
+				"sendingBuffer"
+			],
+			[
+				"_b",
+				"_bufferLength"
+			],
+			[
+				"begi",
+				"begin"
+			],
+			[
+				"getc",
+				"getChipId"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"dig",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"anal",
+				"analogRead"
+			],
+			[
+				"del",
+				"delay	Arduino delay()"
+			],
+			[
+				"digi",
+				"digitalRead"
+			],
+			[
+				"HIGH",
+				"HIGH"
+			],
+			[
+				"max",
+				"maxX"
+			],
+			[
+				"min",
+				"minX"
+			],
+			[
+				"senz",
+				"senzorValueX"
+			],
+			[
+				"speed",
+				"speeder"
+			],
+			[
+				"delay",
+				"delayMicroseconds"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"LOW",
+				"LOW"
+			],
+			[
+				"wai",
+				"waitTime"
+			],
+			[
+				"ou",
+				"outputValue"
+			],
+			[
+				"di",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"an",
+				"analogWrite	Arduino analogWrite"
+			],
+			[
+				"analo",
+				"analogWrite"
+			],
+			[
+				"num",
+				"numberToDisplay"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"hi",
+				"HIGH"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Termodin_Tatka.ino",
+			"settings":
+			{
+				"buffer_size": 12133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "….\nF:sendNodeState(const char* state) : WiFi_connected\nF:sendAllSensorData(String fireEventName) :WiFi_connected\nF:postDataToServer(String url) : ?temp=&flowTemp=0.00&pipeTemp=&waterFlow=&event=WiFi_connected&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=&flowTemp=0.00&pipeTemp=&waterFlow=&event=WiFi_connected&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:OTA_setup()\nArduino OTA setup..\nSketch size: 260kB\nFree size: 786kB\nWaiting for OTA upload at IP address: 192.168.0.13\n\nF:MAIN_loop()\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: -127.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\npipeTemp_global has rised.. sending update data: 21.19\nF:sendAllSensorData(String fireEventName) :pipeTemp_risedUp\nF:postDataToServer(String url) : ?temp=&flowTemp=1.00&pipeTemp=21.19&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=&flowTemp=1.00&pipeTemp=21.19&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nTemperature has changed.. sending update data: 20.94\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=20.94&flowTemp=2.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=20.94&flowTemp=2.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.98\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.98\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nTemperature has changed.. sending update data: 21.06\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.06&flowTemp=3.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.06&flowTemp=3.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=0%2e0%2e0%2e0&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.44\nTemperature has changed.. sending update data: 21.44\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.44&flowTemp=4.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.44&flowTemp=4.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.35\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: -127.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.27\nTemperature has changed.. sending update data: 25.27\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.27&flowTemp=5.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.27&flowTemp=5.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 26.17\nTemperature has changed.. sending update data: 26.17\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=26.17&flowTemp=6.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=26.17&flowTemp=6.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 26.75\nTemperature has changed.. sending update data: 26.75\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=26.75&flowTemp=7.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=26.75&flowTemp=7.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.13\nTemperature has changed.. sending update data: 27.12\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.13&flowTemp=8.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.13&flowTemp=8.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.40\nTemperature has changed.. sending update data: 27.40\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.40&flowTemp=9.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.40&flowTemp=9.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.58\nTemperature has changed.. sending update data: 27.58\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.58&flowTemp=10.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.58&flowTemp=10.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.71\nTemperature has changed.. sending update data: 27.71\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.71&flowTemp=11.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.71&flowTemp=11.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.79\nTemperature has changed.. sending update data: 27.79\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.79&flowTemp=12.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.79&flowTemp=12.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.54\nTemperature has changed.. sending update data: 27.54\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.54&flowTemp=13.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.54&flowTemp=13.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.48\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 27.08\nTemperature has changed.. sending update data: 27.08\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=27.08&flowTemp=14.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=27.08&flowTemp=14.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 26.62\nTemperature has changed.. sending update data: 26.62\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=26.62&flowTemp=15.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=26.62&flowTemp=15.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 26.25\nTemperature has changed.. sending update data: 26.25\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=26.25&flowTemp=16.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=26.25&flowTemp=16.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.96\nTemperature has changed.. sending update data: 25.96\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.96&flowTemp=17.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.96&flowTemp=17.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.69\nTemperature has changed.. sending update data: 25.69\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.69&flowTemp=18.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.69&flowTemp=18.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.46\nTemperature has changed.. sending update data: 25.46\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.46&flowTemp=19.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.46&flowTemp=19.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.21\nTemperature has changed.. sending update data: 25.21\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.21&flowTemp=20.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.21&flowTemp=20.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 25.02\nTemperature has changed.. sending update data: 25.02\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=25.02&flowTemp=21.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=25.02&flowTemp=21.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.83\nTemperature has changed.. sending update data: 24.83\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.83&flowTemp=22.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.83&flowTemp=22.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.65\nTemperature has changed.. sending update data: 24.65\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.65&flowTemp=23.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.65&flowTemp=23.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.48\nTemperature has changed.. sending update data: 24.48\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.48&flowTemp=24.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.48&flowTemp=24.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.33\nTemperature has changed.. sending update data: 24.33\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.33&flowTemp=25.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.33&flowTemp=25.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.23\nTemperature has changed.. sending update data: 24.23\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.23&flowTemp=26.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.23&flowTemp=26.00&pipeTemp=21.19&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.77\npipeTemp_global has rised.. sending update data: 23.77\nF:sendAllSensorData(String fireEventName) :pipeTemp_risedUp\nF:postDataToServer(String url) : ?temp=24.23&flowTemp=27.00&pipeTemp=23.77&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.23&flowTemp=27.00&pipeTemp=23.77&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 24.10\nTemperature has changed.. sending update data: 24.10\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=24.10&flowTemp=28.00&pipeTemp=23.77&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.10&flowTemp=28.00&pipeTemp=23.77&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 25.25\npipeTemp_global has rised.. sending update data: 25.25\nF:sendAllSensorData(String fireEventName) :pipeTemp_risedUp\nF:postDataToServer(String url) : ?temp=24.10&flowTemp=29.00&pipeTemp=25.25&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=24.10&flowTemp=29.00&pipeTemp=25.25&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.98\nTemperature has changed.. sending update data: 23.98\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.98&flowTemp=30.00&pipeTemp=25.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.98&flowTemp=30.00&pipeTemp=25.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 26.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.92\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 26.34\npipeTemp_global has rised.. sending update data: 26.34\nF:sendAllSensorData(String fireEventName) :pipeTemp_risedUp\nF:postDataToServer(String url) : ?temp=23.98&flowTemp=31.00&pipeTemp=26.34&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.98&flowTemp=31.00&pipeTemp=26.34&waterFlow=&event=pipeTemp_risedUp&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.79\nTemperature has changed.. sending update data: 23.79\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.79&flowTemp=32.00&pipeTemp=26.34&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.79&flowTemp=32.00&pipeTemp=26.34&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 25.54\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.67\nTemperature has changed.. sending update data: 23.67\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.67&flowTemp=33.00&pipeTemp=25.54&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.67&flowTemp=33.00&pipeTemp=25.54&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 24.92\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.54\nTemperature has changed.. sending update data: 23.54\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.54&flowTemp=34.00&pipeTemp=24.92&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.54&flowTemp=34.00&pipeTemp=24.92&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 24.45\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.46\nTemperature has changed.. sending update data: 23.46\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.46&flowTemp=35.00&pipeTemp=24.45&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.46&flowTemp=35.00&pipeTemp=24.45&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 24.08\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.35\nTemperature has changed.. sending update data: 23.35\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.35&flowTemp=36.00&pipeTemp=24.08&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.35&flowTemp=36.00&pipeTemp=24.08&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.83\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.29\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.59\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.17\nTemperature has changed.. sending update data: 23.17\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=23.17&flowTemp=37.00&pipeTemp=23.59&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=23.17&flowTemp=37.00&pipeTemp=23.59&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.40\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 23.10\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: -127.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.92\nTemperature has changed.. sending update data: 22.92\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.92&flowTemp=38.00&pipeTemp=23.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.92&flowTemp=38.00&pipeTemp=23.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 23.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.79\nTemperature has changed.. sending update data: 22.79\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.79&flowTemp=39.00&pipeTemp=22.87&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.79&flowTemp=39.00&pipeTemp=22.87&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.77\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.73\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.69\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.67\nTemperature has changed.. sending update data: 22.67\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.67&flowTemp=40.00&pipeTemp=22.69&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.67&flowTemp=40.00&pipeTemp=22.69&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.62\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.60\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.53\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.56\nTemperature has changed.. sending update data: 22.56\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.56&flowTemp=41.00&pipeTemp=22.53&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.56&flowTemp=41.00&pipeTemp=22.53&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.54\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.54\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.44\nTemperature has changed.. sending update data: 22.44\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.44&flowTemp=42.00&pipeTemp=22.44&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.44&flowTemp=42.00&pipeTemp=22.44&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.42\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.35\nTemperature has changed.. sending update data: 22.35\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.35&flowTemp=43.00&pipeTemp=22.31&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.35&flowTemp=43.00&pipeTemp=22.31&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.29\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.25\nTemperature has changed.. sending update data: 22.25\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.25&flowTemp=44.00&pipeTemp=22.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.25&flowTemp=44.00&pipeTemp=22.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.23\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.16\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.13\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.17\nTemperature has changed.. sending update data: 22.17\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.17&flowTemp=45.00&pipeTemp=22.13&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.17&flowTemp=45.00&pipeTemp=22.13&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.10\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.04\nTemperature has changed.. sending update data: 22.04\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=22.04&flowTemp=46.00&pipeTemp=22.00&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=22.04&flowTemp=46.00&pipeTemp=22.00&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 22.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.97\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.98\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.94\nTemperature has changed.. sending update data: 21.94\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.94&flowTemp=47.00&pipeTemp=21.94&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.94&flowTemp=47.00&pipeTemp=21.94&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.92\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 22.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.92\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.91\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.85\nTemperature has changed.. sending update data: 21.85\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.85&flowTemp=48.00&pipeTemp=21.91&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.85&flowTemp=48.00&pipeTemp=21.91&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.87\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.79\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.75\nTemperature has changed.. sending update data: 21.75\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.75&flowTemp=49.00&pipeTemp=21.81&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.75&flowTemp=49.00&pipeTemp=21.81&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.75\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.73\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.75\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.69\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.69\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.67\nTemperature has changed.. sending update data: 21.67\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.67&flowTemp=50.00&pipeTemp=21.69&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.67&flowTemp=50.00&pipeTemp=21.69&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.69\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.60\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.56\nTemperature has changed.. sending update data: 21.56\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.56&flowTemp=51.00&pipeTemp=21.56&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.56&flowTemp=51.00&pipeTemp=21.56&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.48\nTemperature has changed.. sending update data: 21.48\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.48&flowTemp=52.00&pipeTemp=21.50&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.48&flowTemp=52.00&pipeTemp=21.50&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.42\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.37\nTemperature has changed.. sending update data: 21.37\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.37&flowTemp=53.00&pipeTemp=21.50&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.37&flowTemp=53.00&pipeTemp=21.50&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.59\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.56\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.53\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.42\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.50\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.47\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.35\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.44\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.29\nTemperature has changed.. sending update data: 21.29\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.29&flowTemp=54.00&pipeTemp=21.44&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.29&flowTemp=54.00&pipeTemp=21.44&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.41\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.23\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.23\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.37\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.19\nTemperature has changed.. sending update data: 21.19\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.19&flowTemp=55.00&pipeTemp=21.37&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.19&flowTemp=55.00&pipeTemp=21.37&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.33\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.17\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.28\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.10\nTemperature has changed.. sending update data: 21.10\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.10&flowTemp=56.00&pipeTemp=21.28&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.10&flowTemp=56.00&pipeTemp=21.28&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.28\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.31\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.06\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.04\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.04\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nTemperature has changed.. sending update data: 21.00\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.00&flowTemp=57.00&pipeTemp=21.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.00&flowTemp=57.00&pipeTemp=21.25&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.23\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.98\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.16\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.92\nTemperature has changed.. sending update data: 20.92\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=20.92&flowTemp=58.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=20.92&flowTemp=58.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.17\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.92\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nTemperature has changed.. sending update data: 20.81\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=20.81&flowTemp=59.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=20.81&flowTemp=59.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.12\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.16\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.16\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.16\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.85\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.81\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.88\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nTemperature has changed.. sending update data: 20.94\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=20.94&flowTemp=60.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=20.94&flowTemp=60.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.96\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.98\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 20.94\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.25\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.22\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.00\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.02\nTemperature has changed.. sending update data: 21.02\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.02&flowTemp=61.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.02&flowTemp=61.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.29\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.12\nTemperature has changed.. sending update data: 21.12\nF:sendAllSensorData(String fireEventName) :bojlerTemp_changed\nF:postDataToServer(String url) : ?temp=21.12&flowTemp=62.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF\njindrichsirucek.cz/sensorData.php?temp=21.12&flowTemp=62.00&pipeTemp=21.12&waterFlow=&event=bojlerTemp_changed&current=&manualRelayState=ONLINE&programaticRelayState=OFF&chipId=10083673&ip=192%2e168%2e0%2e13&nodeName=Tatka&response=\nClient connected: jindrichsirucek.cz\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\nF:readTemperature() returned: 21.54\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 1\nF:readTemperature() returned: 21.19\nF:temperature_loop()\nF:readTemperature(int sensorIndex): 0\n",
+			"file": "/Users/jindra/Downloads/spotify-ripper-2.7.3/setup.py",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 71470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "temperatureSensor.ino",
+			"settings":
+			{
+				"buffer_size": 1938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "internet_comunication.ino",
+			"settings":
+			{
+				"buffer_size": 5631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "OTA.ino",
+			"settings":
+			{
+				"buffer_size": 3382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "DisplayingData.ino",
+			"settings":
+			{
+				"buffer_size": 6618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RelayControl.ino",
+			"settings":
+			{
+				"buffer_size": 3919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WaterFlowMetter.ino",
+			"settings":
+			{
+				"buffer_size": 1409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "curentMetter.ino",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Processing/Build Systems/Processing.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"Set Syntax: Arduino"
+			],
+			[
+				"set ard",
+				"Set Syntax: Arduino"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disp",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pin",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Channel"
+			],
+			[
+				"pac re",
+				"Package Control: Remove Repository"
+			],
+			[
+				"painsta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa ad",
+				"Package Control: Add Repository"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Add Channel"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Arduino Macro undef"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyntax c",
+				"Set Syntax: C"
+			],
+			[
+				"proces",
+				"Set Syntax: Processing"
+			],
+			[
+				"prcesin",
+				"Set Syntax: Processing"
+			],
+			[
+				"proce",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sar",
+				"Set Syntax: Arduino"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"ardu",
+				"Set Syntax: Arduino"
+			],
+			[
+				"ard",
+				"Set Syntax: Arduino"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jindra/Downloads/Platba_Vones_rok_2015.txt",
+		"/Users/jindrichsirucek/Documents/Arduino/Termodin_Tatka/symbolsDefine.h",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/RelayControl.ino",
+		"/Applications/arduino.app/Contents/Java/hardware/arduino/avr/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino",
+		"/Applications/arduino.app/Contents/Java/hardware/arduino/avr/libraries/ESP8266mDNS/examples/DNS_SD_Arduino_OTA/DNS_SD_Arduino_OTA.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/FileReadingWriting/fileReadingWriting.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/:*.ino",
+		"/Applications/arduino.app/Contents/Java/hardware/arduino/avr/libraries/SD/examples/CardInfo/CardInfo.ino",
+		"/Applications/arduino.app/Contents/Java/libraries/Bridge/examples/WiFiStatus/WiFiStatus.ino",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/ScrollOffset/ScrollOffset.sublime-settings",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/RemoteConsole/RemoteConsole.h",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/RemoteConsole/RemoteConsole.cpp",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Stino/Default (OSX).sublime-keymap",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino/Default (OSX).sublime-keymap",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Stino/Preferences.stino-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/ScrollOffset.sublime-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino/preset/platform.settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino/preset/platform_pic32.txt",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino/preset/ram_size.settings",
+		"/Users/jindrichsirucek/Documents/Arduino/aaa/aaa.ino",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino-new-stino/snippets/toString.sublime-snippet",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/AutocompleteAcrossTabs.py",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/auto_complete_cycle.py",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/arduino-tasker-master/examples/MultiBlink/MultiBlink.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/_NextGeneration_ESP8266_BojlerAutomatizace.ino",
+		"/Applications/arduino.app/Contents/Java/examples/01.Basics/Blink/Blink.ino",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jindrichsirucek/Documents/Arduino/ESP_Current_Measure/ESP_Current_Measure.ino",
+		"/Users/jindrichsirucek/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-1106-g8253b82/tools/espota.py",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/symbolsDefine.h",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/ThermoDin.sublime-project",
+		"/Users/jindrichsirucek/Documents/Arduino/WiFIConsole_Funkcni/wifiConsole.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/WiFIConsole_Funkcni/WiFIConsole_Funkcni.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/I2C.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/DallasTemperature/examples/Multiple/Multiple.pde",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/PString/PString.cpp",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/PString/PString.h",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/WifiConsole.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/aOLED_Display.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/OLED_Display.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/graphLCD.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/Z_NextGeneration_ESP8266_BojlerAutomatizace/Z_NextGeneration_ESP8266_BojlerAutomatizace.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/ESP8266_BojlerAutomatizace/WifiConsole.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/ESP8266_BojlerAutomatizace/ESP8266_BojlerAutomatizace.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/OzOLED/OzOLED.h",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/OzOLED/OzOLED.cpp",
+		"/Users/jindrichsirucek/Documents/Arduino/OTA_WiFIConfigSave_webServer/OTA_WiFIConfigSave_webServer.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/OTA_WiFIConfigSave_webServer/wifiConsole.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/basicOTA/basicOTA.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/FunkcniOTA/FunkcniOTA.ino",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/C++.sublime-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/jindrichsirucek/Documents/Arduino/SublimeTest/SublimeTest.ino",
+		"/Users/jindrichsirucek/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-1084-ga39ce29/tools/espota.py",
+		"/Users/jindrichsirucek/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/tools/espota.py",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/WiFiConfig/WifiConfig.cpp",
+		"/Users/jindrichsirucek/Library/Arduino15/packages/Zaloha_esp8266/hardware/esp8266/1.6.5-1044-g170995a/tools/espota.py",
+		"/Users/jindrichsirucek/Downloads/WiFiConfig/keywords.txt",
+		"/Users/jindrichsirucek/Documents/Arduino/PythonOTA/untitled.py",
+		"/Users/jindrichsirucek/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-1044-g170995a/tools/espota.py",
+		"/private/var/folders/5j/6p8p75796v74glfbr5q2gm2h0000gn/T/858f4ee7-258d-40f4-ae21-d4f1fb873b65/jindrichsirucek.cz/web/sensorData.php",
+		"/Users/jindrichsirucek/Documents/Arduino/GraphLCD16x2.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/keywords.txt",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/LiquidCrystal/examples/Autoscroll/Autoscroll.ino",
+		"/Users/jindrichsirucek/Downloads/dtostrf.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/i2cOledEsp8266/i2cOledEsp8266.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/espI2cDisplay 16x2/I2C.ino",
+		"/Users/jindrichsirucek/Downloads/Arduino-LiquidCrystal-I2C-library-master/examples/CustomChars/CustomChars.ino",
+		"/Users/jindrichsirucek/Documents/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/examples/HelloWorld/HelloWorld.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/HelloWorld_i2c/I2C_LCD01.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/I2C Bus Scanner/i2c_Bus_Scanner/i2c_Bus_Scanner.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/OledDisplay/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/WiFimodul/ATComands",
+		"/Users/jindrichsirucek/Downloads/LiquidCrystal 2/HelloWorld_i2c.pde",
+		"/Users/jindrichsirucek/Downloads/instructable.ino",
+		"/Users/jindrichsirucek/Downloads/LiquidCrystal/examples/HelloWorld_i2c/I2C_LCD01.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor/SonicSenzor.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires/TouchScreen5wires.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/Procesing/procesing.pde",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent/SerialEvent.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/05.Control/Arrays/Arrays.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/libraries/Stepper/examples/stepper_oneStepAtATime/stepper_oneStepAtATime.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic/WheelMouseSuport.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialCallResponse/SerialCallResponse.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport/WheelMouseSuport.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/_Bulidy/TouchpadRelativeMode/TouchpadRelativeMode.ino.cpp.o:/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode/LEDLightDimmer11.pde",
+		"/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode/EEPROM.cpp",
+		"/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode/WConstants.h",
+		"/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode/wiring.c",
+		"/Users/jindrichsirucek/Downloads/karduinoss.pde",
+		"/Users/jindrichsirucek/Downloads/LEDLightDimmer11.pde",
+		"/Users/jindrichsirucek/Downloads/LiquidCrystalFast/examples/Scroll/Scroll.pde",
+		"/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter/SevSeg_Counter.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu/DisplayNaPrototypeBoardu.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/ps2.cpp",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/ps2.h",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/displayControl.h",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/displayControl",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/displayControl.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino/Tasker.h",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial/AnalogInOutSerial.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu/VysilackaCteniVstupu.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInput/AnalogInput.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/Fading/Fading.ino",
+		"/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/Stino-new-stino/Default (OSX).sublime-keymap",
+		"/Users/jindrichsirucek/Desktop/Arduino/blikackaZakla/blikackaZakla.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime/DisplayTaskerPotenciometrShowingDelayTime.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer/DisplayTimer.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield/MujDisplayShield.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/MouseWheel/MouseWheel.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska/DisplayTaskerPotenciometrShowingDelayTime.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/blikacka/blikacka.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska/mouse.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/01.Basics/AnalogReadSerial/AnalogReadSerial.ino",
+		"/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/01.Basics/Blink/Blink.ino",
+		"/tmp/Arduino/69/69.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška/mouse.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/a/a.ino",
+		"/tmp/Arduino/11/11.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem/DisplaySKalibraciATaskeremPokracovani.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem/DisplaySKalibraciATaskerem.ino",
+		"/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem/Tasker.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"jindrichsi",
+			"script.",
+			"NOT_SENDING_DATA",
+			"WAITING_FOR_RESPONSES_MODULE_ENABLED",
+			"setd",
+			"Serial.",
+			"DISPLAY_ENABLE",
+			"OTA_ENABLE",
+			"CURRENT_MODULE_ENABLE",
+			"WATER_FLOW_ENABLE",
+			"CURRENT_ENABLE",
+			"TEMP_ENABLE_MODULE_ENABLED",
+			"TEMP_ENABLE",
+			"WAITING_FOR_RESPONSES",
+			"begg",
+			"//#",
+			"#",
+			"getStringUpTime()",
+			"displayUpTime()",
+			"MIMIMAL_SENDING_TEMP_DIFFERENCE",
+			"objectAskingForResponse_global",
+			"getObjectAskingForResponse",
+			"objectAskingForResponse_global",
+			"objectAskingForResponse_global = \"\";",
+			"objectAskingForResponse_global",
+			"espRestartTime_global",
+			"systemStateInfo",
+			"DEBUG_REZIM",
+			"PROVOZ",
+			"DOMACI_PROVOZ",
+			"OSTRY_PROVOZ",
+			"nodeName",
+			"CUTTING_OFF_HEATING_RELAY_PIN",
+			"TURNING_ON_OFF_HEATING_RELAY_PIN",
+			"lastTempUpdateTime_global",
+			"resetflowCount",
+			"objectAskingForResponse_globalFlag",
+			"waitingForResponse_globalFlag",
+			"doNecesaryActionsUponResponse",
+			"checkS",
+			", WAIT_FOR_RESPONSE",
+			"sendAllSensorData",
+			"waitForRespone",
+			"sendA",
+			"postDataToServer",
+			"waitForRespone",
+			"sendAll",
+			"systemInfo",
+			"turnOnBoilerElectricity",
+			"serviceDisplay",
+			"serviceDisplayRow",
+			"serviceDisplayCol",
+			"readTemp",
+			"setupOTA",
+			"waterFlowSensorSetup",
+			"oledDisplaySetup",
+			"lcdSetup",
+			"setupRelayBoard",
+			"currentL",
+			"sendServiceMessage",
+			"convertFlowSensorCountToLitres",
+			"TEMP_DEBUG",
+			"TEMPERATURE_DEBUG",
+			"doNe",
+			"actio",
+			"acti",
+			"doNe",
+			"ALREADY",
+			"programaticRelayState_global",
+			"OFF_STATE",
+			"ON_STATE",
+			"manualRelayState_global",
+			"shutDownBoilerElectricity",
+			"send",
+			"TURNING_ON_HEATING_RELAY_PIN",
+			"CUTTING_OFF_HEATING_RELAY_PIN",
+			"PROGRAMATIC_HEATING_RELAY_PIN",
+			"MANUAL_HEATING_RELAY_PIN",
+			"line",
+			"sendNodeState",
+			"sendServiceMessage",
+			"ERROR_DEBUG_INFORMATION",
+			"while (",
+			"if (",
+			"readTemp",
+			"(currentLoopp",
+			"currentLoopp",
+			"current Loopp",
+			"currentLoopp",
+			"client.",
+			"15",
+			"\"heat",
+			"heating",
+			"sendModuleState",
+			"OFF",
+			"ON",
+			"programaticRelayState_global",
+			"DEBUG_TEMP",
+			"turnOffBoilerHeating",
+			"println(",
+			"->",
+			"turnOffBoilerHeating",
+			"programaticRelayState_global",
+			"\n	",
+			"\n}",
+			";\n",
+			"\n	",
+			"readTemp()",
+			"TURNING_ON_BOILER_PIN",
+			"TURNING_OFF_BOILER_PIN",
+			"15",
+			"14",
+			"Serial.end",
+			"(DEBUG)",
+			"DEBUG",
+			"DEBUG || ",
+			"flowTemp_global",
+			"DEBUG || ",
+			"lastTemp_global",
+			"flowTemp_global",
+			"milisecondsFromLastSend",
+			"find",
+			"shift+",
+			"find",
+			"find_next",
+			"find",
+			"mili",
+			"replace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"UPLOADING_DATA_MODULE_ENABLED",
+			"DEBUG_OUTPUT.",
+			"DISPLAY_MODULE_ENABLED",
+			"OTA_MODULE_ENABLED",
+			"CURRENT_MODULE_ENABLED",
+			"WATER_FLOW_MODULE_ENABLED",
+			"WATER_FLOW_MODULE_ENABLE",
+			"CURRENT_MODULE_ENABLE",
+			"TEMP_MODULE_ENABLED",
+			"TEMP_ENABLE_MODULE_ENABLED",
+			"WAITING_FOR_RESPONSES_MODULE_ENABLED",
+			"getStringUpTime()",
+			"resetObjectAskingForResponse();",
+			"DEBUG_REZIM",
+			"DOMACI_PROVOZ",
+			"NODE_NAME",
+			"BOILER_ELECTRICITY_RELAY_PIN",
+			"BOILER_HEATING_RELAY_PIN",
+			"lastUpdateTime_global",
+			"objectAskingForResponse_global",
+			"objectAskingForResponse_globalFlag",
+			"",
+			"serviceAreaDisplay",
+			"serviceDisplayStartRow",
+			"serviceDisplayStartCol",
+			"readTemperature",
+			"OTA_setup",
+			"waterFlowSensor_setup",
+			"oledDisplay_setup",
+			"lcd_setup",
+			"relayBoard_setup",
+			"showServiceMessage",
+			"convertWaterFlowSensorImpulsesToLitres",
+			"TEMPERATURE_DEBUG",
+			"heatingBoilerRelayState_global",
+			"OFF_RELAY_STATE",
+			"ON_RELAY_STATE",
+			"cutOffBoilerElectricityRelayStateFlag_global",
+			"cutOffBoilerElectricity",
+			"SHOW_ERROR_DEBUG_INFORMATION",
+			"while(",
+			"if(",
+			"sendNodeState",
+			"TEMP_DEBUG",
+			"",
+			"command",
+			"WATER_FLOW_DEBUG",
+			"DEBUG",
+			"(DEBUG",
+			"DEBUG_TEMP)",
+			"(Debug",
+			"waterFlowSensorCount_global",
+			"waterFlowDisplay_global",
+			"debug",
+			"lastTempUpdateTime_global",
+			"remoteConsole",
+			"flowOffTime_global",
+			"wifiBuffer.",
+			"\\\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Termodin_Tatka.ino",
+					"settings":
+					{
+						"buffer_size": 12133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2581,
+								2581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 923.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jindra/Downloads/spotify-ripper-2.7.3/setup.py",
+					"settings":
+					{
+						"buffer_size": 71470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70206,
+								70438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 507.0,
+						"translation.y": 21342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "temperatureSensor.ino",
+					"settings":
+					{
+						"buffer_size": 1938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "internet_comunication.ino",
+					"settings":
+					{
+						"buffer_size": 5631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1264,
+								1280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 621.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "OTA.ino",
+					"settings":
+					{
+						"buffer_size": 3382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "DisplayingData.ino",
+					"settings":
+					{
+						"buffer_size": 6618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "RelayControl.ino",
+					"settings":
+					{
+						"buffer_size": 3919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "WaterFlowMetter.ino",
+					"settings":
+					{
+						"buffer_size": 1409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "curentMetter.ino",
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1433182019.39":
+	{
+		"height": 100.0
+	},
+	"output.1433182045.26":
+	{
+		"height": 100.0
+	},
+	"output.1433182266.82":
+	{
+		"height": 100.0
+	},
+	"output.1433183337.07":
+	{
+		"height": 100.0
+	},
+	"output.1433183438.81":
+	{
+		"height": 100.0
+	},
+	"output.1441927251.24":
+	{
+		"height": 100.0
+	},
+	"output.1442804062.5":
+	{
+		"height": 100.0
+	},
+	"output.build|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433182112.82":
+	{
+		"height": 100.0
+	},
+	"output.build|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433182278.75":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200589.94":
+	{
+		"height": 0.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200630.92":
+	{
+		"height": 0.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185993.88":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433182531.54":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433182549.21":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433182621.54":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433182658.57":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433184516.38":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Desktop/Arduino|1433184526.45":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442804929.06":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805121.97":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805152.13":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805165.47":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805174.23":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805327.58":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805342.96":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805356.01":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442805869.44":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442806081.88":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442806248.93":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442806292.98":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442807426.95":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442807457.54":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442807600.93":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/jindrichsirucek/Documents/Arduino/aaa|1442805656.1":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/02.Digital/BlinkWithoutDelay|1433183600.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/02.Digital/BlinkWithoutDelay|1433184468.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/02.Digital/BlinkWithoutDelay|1433184902.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/02.Digital/BlinkWithoutDelay|1433184912.11":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296334.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296393.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296428.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296478.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296847.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/03.Analog/AnalogInOutSerial|1433296890.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434233992.47":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434234013.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434234076.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434234115.55":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434234179.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/examples/04.Communication/SerialEvent|1434234231.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino 1.0.5.app/Contents/Resources/Java/libraries/Stepper/examples/stepper_oneStepAtATime|1434139124.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433182835.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433183342.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433183442.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433183463.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/Blink|1433183556.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433372393.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433372905.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433372928.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433372955.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433373058.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433373185.11":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433373220.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374414.31":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374493.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374565.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374690.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374739.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374830.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374870.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/2x16Display|1433374912.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/3phaseMotorAnalog|1434235162.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/3phaseMotorAnalog|1434235354.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/3phaseMotorAnalog|1434235441.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/3phaseMotorAnalog|1434235477.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433247736.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433247863.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248464.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248608.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248707.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248721.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248826.02":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248914.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433248930.9":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433274408.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433274764.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433274771.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433278381.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433283250.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433283252.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433283262.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayNaPrototypeBoardu|1433283492.03":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433186626.81":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433186656.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433186958.94":
+	{
+		"height": 224.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433186995.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187201.61":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187271.89":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187303.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187332.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187368.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187417.34":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187807.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187962.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433187992.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188017.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188105.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188191.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188215.6":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188240.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188294.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188315.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188451.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188525.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188587.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188682.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188721.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188749.44":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188841.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188864.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188880.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188912.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433188974.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189181.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189313.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189330.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189346.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189466.49":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189556.79":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189570.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189600.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189675.02":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189718.72":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189746.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189866.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189872.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433189958.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433190799.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433190902.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433190986.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191008.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191029.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191043.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191075.91":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191132.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191144.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191151.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191164.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191396.65":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191662.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191818.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191871.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplaySKalibraciATaskerem|1433191946.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192006.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192015.0":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192060.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192177.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192277.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192405.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192624.91":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192704.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433192833.15":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193021.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193172.11":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193222.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193297.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193316.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193367.08":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193406.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193807.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193828.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193852.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193871.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193881.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193912.15":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193938.12":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433193955.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194103.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194115.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194198.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194216.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194225.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194253.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194268.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194329.91":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194381.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194408.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194467.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433194712.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTaskerPotenciometrShowingDelayTime|1433242587.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433242699.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433242720.55":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433242728.21":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433242761.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433242876.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/DisplayTimer|1433243013.43":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/HelloWorld_i2c|1435866678.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/Knihovny/7bit DIsplay SevSeg-master/examples/SevSeg_Counter|1433369263.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/Knihovny/7bit DIsplay SevSeg-master/examples/SevSeg_Counter|1433369294.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433299217.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433299288.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433299370.34":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300302.31":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300355.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300395.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300437.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300475.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300486.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300507.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300516.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300526.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300540.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300548.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300691.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300723.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300735.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300758.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300762.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433300806.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301059.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301237.0":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301243.38":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301477.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301489.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301496.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301507.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301522.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301544.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301564.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301606.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301657.89":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301703.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433301778.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433302112.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433302172.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433302662.85":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433302787.65":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433354740.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433357852.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433357993.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseDisplayTaskerPotenciometrShowingDelayTime.ino|1433358030.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433209288.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433231983.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433232003.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433233143.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433233162.29":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433234034.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433241972.3":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MouseWheel|1433242330.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243154.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243166.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243419.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243443.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243792.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433243872.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433244263.93":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/MujDisplayShield|1433247921.49":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OledDisplay/ssd1306_128x64_i2c|1436302209.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433200674.49":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433200703.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201017.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201534.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201542.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201557.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201613.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201617.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201646.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201662.3":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201688.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201698.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433201717.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433202360.15":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433202469.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433203664.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433203717.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204002.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204229.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204294.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204330.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204531.46":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204580.61":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204611.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204716.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204753.91":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204775.93":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204797.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204810.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433204982.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205042.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205075.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205096.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205509.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205523.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205532.34":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205552.21":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205553.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205559.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205832.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433205903.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433241327.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433241875.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickaMyska|1433242417.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200568.21":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200578.24":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200580.48":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200605.68":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/OptickáMyška|1433200611.31":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/Procesing|1434405247.44":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433767122.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433767175.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769165.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769175.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769191.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769218.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769230.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769286.01":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769362.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769385.0":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769405.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433769435.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770253.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770277.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770292.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770325.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770364.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770386.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770456.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/ReleBoard4ks|1433770478.65":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369638.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369654.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369665.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369673.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369685.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369712.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369736.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369807.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SevSeg_Counter|1433369823.64":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434544050.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434544128.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434544816.44":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546347.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546381.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546418.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546441.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546465.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/SonicSenzor|1434546496.09":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434138398.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434139927.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434139993.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434140764.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434140800.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434140959.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434140982.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434141008.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434141360.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434142009.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434142096.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434142170.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434142289.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434143357.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434143510.89":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434143610.23":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434145932.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434145991.29":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434146037.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434146226.64":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148160.72":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148208.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148609.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148639.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148648.43":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148662.88":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148673.93":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148682.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148693.81":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148707.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148750.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434148903.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434149186.71":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434149611.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434149712.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434149822.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434149832.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154396.65":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154409.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154425.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154437.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154446.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154461.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434154710.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434155208.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434155578.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434155915.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156271.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156299.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156317.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156358.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156377.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156392.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156401.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156432.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156520.09":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156535.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156545.8":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156619.47":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156658.6":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156684.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156742.34":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156753.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156845.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434156927.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157003.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157123.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157326.79":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157414.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157425.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157452.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157481.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157509.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157807.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157824.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157851.31":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157863.61":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157877.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434157997.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434158191.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434158206.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194583.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194668.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194875.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194883.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194891.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194911.08":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434194933.83":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434231874.89":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232130.0":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232233.8":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232244.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232302.6":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232408.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232423.8":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434232734.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233019.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233057.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233088.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233176.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233412.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233540.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233587.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233725.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233795.12":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434233841.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434234146.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434234280.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434234328.05":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/StepperMotorCDrom|1434234514.56":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403113.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403164.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403172.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403612.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403622.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403840.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403849.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403883.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434403936.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434404587.05":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434404602.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434404616.9":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434404670.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434404776.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434405292.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434405304.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434405658.94":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434405954.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434406823.81":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434406904.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407128.46":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407651.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407659.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407685.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407701.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434407787.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434408955.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409575.23":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409616.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409653.21":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409690.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409760.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409828.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409970.9":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434409978.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434410313.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434410451.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchScreen5wires|1434410998.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433460362.86":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433460388.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433460597.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433460662.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433460974.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461010.85":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461020.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461024.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461067.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461074.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461086.05":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461090.8":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461095.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461098.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461172.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461180.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461186.03":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461189.91":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461209.55":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433461237.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/TouchpadRelativeMode|1433462035.46":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433284153.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433285748.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433285766.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433285805.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433285871.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286247.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286262.44":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286285.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286317.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286375.39":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286470.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286560.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286563.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286757.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433286775.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287183.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287261.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287308.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287345.57":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287431.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287758.59":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287765.12":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287777.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287785.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287806.28":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287856.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287878.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287890.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287938.93":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287956.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433287980.3":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433288138.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433288334.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433288578.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292281.32":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292334.9":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292347.67":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292468.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292587.64":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292712.55":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292797.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433292952.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433293008.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433293083.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294359.46":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294376.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294704.7":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294709.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294728.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294778.85":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294848.8":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294881.55":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433294905.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295012.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295038.81":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295146.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295169.14":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295455.9":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295585.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295789.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433295797.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433297322.1":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433297355.69":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433297416.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433297471.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/VysilackaCteniVstupu|1433297680.72":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104513.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104544.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104549.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104568.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104592.12":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104661.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104713.15":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104858.92":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434104928.72":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434105253.07":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434105284.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseLCDDisplayMic|1434106430.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433868897.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433868926.03":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433870776.18":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871088.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871123.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871152.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871180.09":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871202.61":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871225.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871264.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871299.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871302.08":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871338.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871354.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871437.65":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871583.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871588.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871611.37":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871740.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871746.97":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871799.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871870.35":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433871909.97":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883264.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883269.2":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883356.62":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883370.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883496.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883503.33":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883550.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883567.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883571.34":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883587.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883601.54":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883713.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883728.11":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883742.46":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883769.6":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883815.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883872.64":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883959.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433883988.66":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433884034.05":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433884411.27":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433884421.47":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433884792.25":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433884832.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433885736.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/WheelMouseSuport|1433886119.38":
+	{
+		"height": 0.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/a|1433194667.98":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikackaZakla|1433283462.41":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikacka|1433241530.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikacka|1433241602.54":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikacka|1433241608.72":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikacka|1433241631.17":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/blikacka|1433241802.06":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/displaySkalibraciPotenciometru.ino|1433185224.26":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/displaySkalibraciPotenciometru.ino|1433185281.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/displaySkalibraciPotenciometru.ino|1433185339.52":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/pokus2Tasker|1433186263.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/pokus2Tasker|1433186322.78":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/proudMeter|1436896829.5":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/proudMeter|1436896845.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/proudMeter|1436897873.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/proudMeter|1436898080.74":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185893.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185914.56":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185917.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185925.22":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433185981.89":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433186002.84":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433186123.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino/taskerPrvniPokus|1433186132.08":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433182565.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433182647.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183500.38":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183633.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183740.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183767.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183844.73":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433183931.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184160.16":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184339.99":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184380.42":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184395.77":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184487.87":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184508.3":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433184962.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185000.36":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185012.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185026.48":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185050.76":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185093.04":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Desktop/Arduino|1433185169.19":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442181693.82":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442667899.63":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442671536.4":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442803697.89":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace|1442804163.49":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/aaa|1442805669.96":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Documents/Arduino/libraries/PString|1441899053.24":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/LiquidCrystal 2|1435866686.56":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/LiquidCrystal 2|1435866792.58":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/LiquidCrystal/examples/HelloWorld_i2c|1434573440.95":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/LiquidCrystalFast/examples/Scroll|1433375627.53":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/arduinoTaskerMaster/examples/MultiBlink|1433188420.75":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/arduinoTaskerMaster/examples/MultiBlink|1433189131.68":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads/arduinoTaskerMaster/examples/MultiBlink|1433189140.83":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads|1433458419.45":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Downloads|1433460331.51":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/jindrichsirucek/Library/Application Support/Sublime Text 2/Packages/User|1442672248.27":
+	{
+		"height": 0.0
+	},
+	"output.upload|/tmp/Arduino/11|1433193310.13":
+	{
+		"height": 100.0
+	},
+	"output.upload|/tmp/Arduino/69|1433201754.71":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jindrichsirucek/Documents/Arduino/_NextGeneration_ESP8266_BojlerAutomatizace/ThermoDin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 135.0,
+	"status_bar_visible": true
+}
